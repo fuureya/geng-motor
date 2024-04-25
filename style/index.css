@@ -1,7 +1,12 @@
 
+*{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
+    
   }
 .gambar-navbar
 {
@@ -86,5 +91,13 @@ a:link {
     width: 100%x;
 }
 
-/* Mengubah warna latar belakang toggle button menjadi hitam */
+
+
+.card-img-top.gambar-sparepart {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 250px !important;
+}
+
 
